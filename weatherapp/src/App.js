@@ -6,7 +6,7 @@ import axios from "axios";
 function App() {
   const [city, setCity] = useState("");
   const [language, setLanguage] = useState("tr");
-  const apiKey = "22859d725d1c83694035984a7e79f918";
+  const apiKey = "YourKey";
   const units = "metric";
   const [array, setArray] = useState(null);
   // const debounceRef = useRef(null);
